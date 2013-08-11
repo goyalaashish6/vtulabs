@@ -1,0 +1,636 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.proj.vtulabs"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.proj.vtulabs.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Aboutus"
+            android:label="ABOUT US" >
+            <intent-filter>
+                <action android:name="com.proj.vtulabs.ABOUTUS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Email"
+            android:label="ContactUS/Feedback" >
+            <intent-filter>
+                <action android:name="com.proj.vtulabs.EMAIL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SOFT_TEST_ISE"
+            android:label="SOFTWARE TESTING LAB" >
+            <intent-filter>
+                <action android:name="com.proj.vtulabs.SOFT_TEST_ISE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UNIX_COMP_CSE"
+            android:label="UNIX &amp; COMPILER LAB" >
+            <intent-filter>
+                <action android:name="com.proj.vtulabs.UNIX_COMP_CSE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FILE_STR_ISE"
+            android:label="FILE STRUCTURE LAB" >
+            <intent-filter>
+                <action android:name="com.proj.vtulabs.FILE_STR_ISE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Webv"
+            android:label="ONLINE VIEW" >
+            <intent-filter>
+                <action android:name="com.proj.vtulabs.WEBV" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AndroidFileDownloader"
+            android:label="FILE DOWNLOADER" >
+            <intent-filter>
+                <action android:name="com.proj.vtulabs.ANDROIDFILEDOWNLOADER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Menu"
+            android:label="MAIN MENU" >
+            <intent-filter>
+                <action android:name="com.proj.vtulabs.MENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.I"
+            android:label="I SEMESTER" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.III"
+            android:label="III SEMESTER" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.IV"
+            android:label="IV SEMESTER" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.V"
+            android:label="V SEMESTER" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.VI"
+            android:label="VI SEMESTER" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.VII"
+            android:label="VII SEMESTER" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.DS"
+            android:label="DATASTRUCTURES LAB" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.DS1"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.DS2"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.DS3"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.DS4"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.DS5"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.DS6"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.DS7"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.DS8"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.DS9"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.DS10"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.DS11"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.DS12"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.DS13"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.DS14"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.CCP"
+            android:label="COMPUTER PROGRAMMING LAB" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.CCP1"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.CCP2"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.CCP3"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.CCP4"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.CCP5"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.CCP6"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.CCP7"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.CCP8"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.CCP9"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.CCP10"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.CCP11"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.CCP12"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.CCP13"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.CCP14"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.CCP15"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.CCP16"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.DBMS"
+            android:label="DATABASE MANAGEMENT LAB" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.DBMS1"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.DBMS2"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.DBMS3"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.DBMS4"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.DBMS5"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.SS_OS"
+            android:label="SYSTEM SOFTWARE &amp; OPERATING SYSTEM LAB" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.SS_OS1a"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.SS_OS1b"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.SS_OS2a"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.SS_OS2b"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.SS_OS3"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.SS_OS4a"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.SS_OS4b"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.SS_OS5a"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.SS_OS5b"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.SS_OS6"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.SS_OS7a"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.SS_OS7b"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.SS_OS8a"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.SS_OS8b"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.SS_OS9a"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.SS_OS9b"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.SS_OS10"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.SS_OS11"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.SS_OS12"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.DAA"
+            android:label="DESIGN &amp; ANALYSIS OF ALGORITHM LAB" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.DAA1"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.DAA2"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.DAA3"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.DAA4"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.DAA5"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.DAA6"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.DAA7a"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.DAA7b"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="com.proj.vtulabs.DAA8"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.DAA9"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.DAA10"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.DAA11"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.DAA12"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.MP"
+            android:label="MICROPROCESSOR LAB" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.MP1a"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.MP2a"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.MP3a"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.MP4a"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.MP5a"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.MP6a"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.MP7a"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.MP8a"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.MP9a"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.MP10a"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.MP11a"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.MP12a"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.MP1b"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.MP2b"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.MP3b"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.MP4b"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.MP5b"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.MP6b"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.MP7b"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.MP8b"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.MP9b"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.MP10b"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.MP11b"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.MP12b"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.COMP_GRAP_CSE"
+            android:label="COMPUTER GRAPHICS &amp; VISUALIZATION LAB" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.COMP_GRAP1"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.COMP_GRAP2"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.COMP_GRAP3"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.COMP_GRAP4"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.COMP_GRAP5"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.COMP_GRAP6"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.COMP_GRAP7"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.COMP_GRAP8"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.COMP_GRAP9"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.COMP_GRAP10"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.NETWORK"
+            android:label="NETWORKS LAB" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.NETWORK7"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.NETWORK8"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.NETWORK9"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.NETWORK10"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.NETWORK11"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.NETWORK12"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.WEB"
+            android:label="WEB PROGRAMMING LAB" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.WEB1"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.WEB2"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.WEB3"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.WEB4"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.WEB5"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.WEB6"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.WEB7"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.WEB8"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.WEB9"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.WEB10"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proj.vtulabs.WEB11"
+            android:label="@string/app_name" >
+        </activity>
+    </application>
+
+
+</manifest>

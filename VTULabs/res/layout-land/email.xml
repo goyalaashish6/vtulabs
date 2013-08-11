@@ -1,0 +1,61 @@
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="64dp"
+            android:text="Name:"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="112dp"
+            android:text="Message :"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/emailid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="26dp"
+            android:ems="10"
+            android:hint="Type your name here" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/emailmessage"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="14dp"
+            android:ems="10"
+            android:hint="Type your Suggestions/Feedbacks here"
+            android:inputType="textPostalAddress" />
+
+        <Button
+            android:id="@+id/emailsend"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="19dp"
+            android:text="Send" />
+
+    </RelativeLayout>
